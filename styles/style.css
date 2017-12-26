@@ -1,0 +1,164 @@
+body {
+    margin: 0!important;
+}
+
+
+* {
+  font-family: 'helvetica neue';
+  box-sizing: border-box;
+}
+
+.subHeaderIcons div {
+    float: right;
+    padding: 5px;
+    color: gray;
+}
+
+.subHeaderIcons a {
+    color: black;
+}
+
+
+.search {
+  clear:  both;  
+  margin: auto;
+  position: relative;
+  right: 0;
+  left: 0;
+  top:0;
+  bottom: 0;  
+  background: #fff;
+  width: 60%;  
+}
+
+
+input {
+  padding: 15px 15px;
+  font-weight: 300;
+  width: 100%;
+  border: none;
+  outline: none;
+  font: 18px arial,sans-serif;  
+  color: #666;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4,0.0,0.2,1);
+}
+
+.searchList {
+  width: 100%;
+  display: none;
+  min-height: 40px;
+  max-height: 330px;
+  overflow: scroll;
+  border-top: 1px solid #f4f4f4;
+}
+.searchList.open {
+  display: block;
+}
+.searchList div {
+  padding: 20px 10px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.searchList div:hover {
+  background: #f2f2f2;
+}
+
+.search .close {
+  position: absolute;
+  font-size: 13px;
+  z-index: 10;
+  top: 10px;
+  left: calc(100% - 50px);
+  color: #aaa;
+  cursor: pointer;
+  display: none;
+}
+
+.search .close.visible {
+  display: block;
+}
+
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding-left: 19%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: #666!important;
+}
+
+/* Change background color of buttons on hover */
+
+
+.tab button.active {
+    border-bottom: 3px solid #4285f4;
+    color: #4285f4!important;
+    font-weight: bold;
+}
+
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.suggestionList {
+    background: #fafafa;
+    color: #666;
+    font-size: 13px;
+    border-bottom: 1px solid #ebebeb;
+    outline-width: 0;
+    outline: none;
+    margin-top: 10px;
+}
+
+.suggestionList .tab, {
+  color: #666!important;
+}
+
+.suggestionList div {
+  padding-left: 20%;
+}
+
+.logo {
+   height: 150px; 
+   width: 40%; 
+   margin: 0 auto;
+}
+
+.suggestionList a {
+  color: #1a0dab;
+}
+
+.circleBase {
+    border-radius: 50%;
+}
+
+.profileImg {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #666;
+}
+
+.subHeaderIcons {
+  padding : 1%;
+}
